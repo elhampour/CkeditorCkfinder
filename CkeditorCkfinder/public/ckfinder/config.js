@@ -13,5 +13,6 @@ CKFinder.customConfig = function( config )
 	// config.uiColor = '#BDE31E';
 	// config.language = 'fr';
 	// config.removePlugins = 'basket';
-
+    CKFinder.config.connectorPath = '/filemanager'
+    CKFinder.config.connectorLanguage = 'asp.net.core';
 };
